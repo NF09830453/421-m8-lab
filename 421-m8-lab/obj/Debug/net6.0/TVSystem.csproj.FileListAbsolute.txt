@@ -1,0 +1,14 @@
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\bin\Debug\net6.0\TVSystem.exe
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\bin\Debug\net6.0\TVSystem.deps.json
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\bin\Debug\net6.0\TVSystem.runtimeconfig.json
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\bin\Debug\net6.0\TVSystem.dll
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\bin\Debug\net6.0\TVSystem.pdb
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\TVSystem.GeneratedMSBuildEditorConfig.editorconfig
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\TVSystem.AssemblyInfoInputs.cache
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\TVSystem.AssemblyInfo.cs
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\TVSystem.csproj.CoreCompileInputs.cache
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\TVSystem.dll
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\refint\TVSystem.dll
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\TVSystem.pdb
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\TVSystem.genruntimeconfig.cache
+D:\SWENG 421Projects\421-m8-lab\421-m8-lab\obj\Debug\net6.0\ref\TVSystem.dll
