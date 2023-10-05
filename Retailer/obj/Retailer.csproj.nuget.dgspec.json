@@ -1,28 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SWENG 421Projects\\421-m8-lab\\Retailer\\Retailer.csproj": {}
+    "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\Retailer\\Retailer.csproj": {}
   },
   "projects": {
-    "D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\TVSystem.csproj": {
+    "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\TVSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\TVSystem.csproj",
+        "projectUniqueName": "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\TVSystem.csproj",
         "projectName": "TVSystem",
-        "projectPath": "D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\TVSystem.csproj",
-        "packagesPath": "C:\\Users\\fyrel\\.nuget\\packages\\",
-        "outputPath": "D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\obj\\",
+        "projectPath": "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\TVSystem.csproj",
+        "packagesPath": "C:\\Users\\Lena\\.nuget\\packages\\",
+        "outputPath": "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\fyrel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net6.0": {
@@ -55,36 +58,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\SWENG 421Projects\\421-m8-lab\\Retailer\\Retailer.csproj": {
+    "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\Retailer\\Retailer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SWENG 421Projects\\421-m8-lab\\Retailer\\Retailer.csproj",
+        "projectUniqueName": "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\Retailer\\Retailer.csproj",
         "projectName": "Retailer",
-        "projectPath": "D:\\SWENG 421Projects\\421-m8-lab\\Retailer\\Retailer.csproj",
-        "packagesPath": "C:\\Users\\fyrel\\.nuget\\packages\\",
-        "outputPath": "D:\\SWENG 421Projects\\421-m8-lab\\Retailer\\obj\\",
+        "projectPath": "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\Retailer\\Retailer.csproj",
+        "packagesPath": "C:\\Users\\Lena\\.nuget\\packages\\",
+        "outputPath": "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\Retailer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\fyrel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lena\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\TVSystem.csproj": {
-                "projectPath": "D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\TVSystem.csproj"
+              "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\TVSystem.csproj": {
+                "projectPath": "C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\TVSystem.csproj"
               }
             }
           }
@@ -114,7 +120,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

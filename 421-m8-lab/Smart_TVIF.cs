@@ -8,6 +8,6 @@ namespace TVSystem
 {
     public interface Smart_TVIF: TVIF
     {
-
+        double GetPowerUsage();
     }
 }

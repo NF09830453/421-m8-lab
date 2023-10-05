@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace TVSystem
 {
-    public class Sony_TV: AbsTVBrand
+    public class Sony_TV: TV
     {
+        public Sony_TV() : base()
+        {
+            this.SetPrice(280);
+            this.SetBrand("Sony");
+
+        }
     }
 }

@@ -9,7 +9,7 @@ namespace Retailer
 {
     public class Retailer
     {
-        TV t = new Proxy();
+        TV t = new TV_Proxy();
         public Retailer() {
 
         }

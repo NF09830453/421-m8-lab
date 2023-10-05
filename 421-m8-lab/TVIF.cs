@@ -8,6 +8,8 @@ namespace TVSystem
 {
     public interface TVIF
     {
+        //TVIF replenishTV(int budget);
 
+        void GetInfo();
     }
 }
