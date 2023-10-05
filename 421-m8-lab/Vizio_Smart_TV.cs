@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace TVSystem
 {
-    public class Vizio_Smart_TV: Smart_TVIF
+    public class Vizio_Smart_TV
     {
-
+        // implements Smart_TVIF
     }
 }

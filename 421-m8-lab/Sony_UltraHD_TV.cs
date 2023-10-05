@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace TVSystem
 {
-    public class Sony_UltraHD_TV: UltraHD_TVIF
+    public class Sony_UltraHD_TV: Sony_TV, UltraHD_TVIF
     {
-
+        public Sony_UltraHD_TV() : base()
+        {
+            this.SetPrice(480);
+            this.SetBrand("Sony");
+            this.SetType("Ultra TV");
+        }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TVSystem
 {
-    public abstract class AbsTVBrand: TVIF
+    public abstract class AbsTVBrand
     {
         private string brand;
         internal string GetBrand()
