@@ -6,8 +6,19 @@ using System.Threading.Tasks;
 
 namespace TVSystem
 {
-    public class Sony_Smart_TV: Smart_TVIF
+    public class Sony_Smart_TV: Sony_TV, Smart_TVIF
     {
+        private Smart_TV st = new Smart_TV();
+        public Sony_Smart_TV(): base()
+        {
+            st.SetPrice(380);
+            st.SetPowerUsage(5.15);
+        }
 
+        public override string GetInfo()
+        {
+            return st.GetInfo() + " Brand: " + GetBrand(); 
+        }
     }
 }
+

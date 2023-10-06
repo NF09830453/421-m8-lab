@@ -8,6 +8,11 @@ namespace TVSystem
 {
     public sealed class UltraHD_TV: TV
     {
-
+        public UltraHD_TV()
+        {
+            SetPrice(400);
+            SetType("UltraHD");
+        }
+        
     }
 }

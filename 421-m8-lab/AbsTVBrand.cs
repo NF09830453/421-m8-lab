@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace TVSystem
 {
-    public abstract class AbsTVBrand: TVIF
+    public abstract class AbsTVBrand: Proxy_TV, TVIF
     {
         private string brand;
         internal string GetBrand()
         {
             return brand;
+        }
+        internal void SetBrand(string brand)
+        {
+            this.brand = brand; 
         }
     }
 }

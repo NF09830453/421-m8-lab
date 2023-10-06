@@ -1,0 +1,9 @@
+200,TV
+300,Smart_TV
+400,UltraHD_TV
+250,Vizio_TV
+350,Vizio_Smart_TV
+450,Vizio_UltraHD_TV
+280,Sony_TV
+380,Sony_Smart_TV
+480,Sony_UltraHD_TV

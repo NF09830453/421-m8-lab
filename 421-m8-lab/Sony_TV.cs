@@ -8,5 +8,11 @@ namespace TVSystem
 {
     public class Sony_TV: AbsTVBrand
     {
+        public Sony_TV()
+        {
+            this.SetPrice(280);
+            this.SetBrand("Sony");
+            this.SetType("Regular");
+        }
     }
 }

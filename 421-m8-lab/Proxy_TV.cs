@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace TVSystem
 {
-    public class Proxy: TV, TVIF
+    public class Proxy_TV: TV, TVIF
     {
         TVIF tvif;
         TV tv; 
+        public Proxy_TV(): base() 
+        {
+
+        }
         
 
     }
