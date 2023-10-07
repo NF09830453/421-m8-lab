@@ -15,7 +15,5 @@ namespace TVSystem
 {
     public interface TVIF
     {
-        TV ReplenishTV(int budget);
-        string GetInfo();
     }
 }
