@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**
+* SWENG 421
+* M8 Lab
+* Yifan Liu, Sunghee Choi
+* 
+* TV class
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
@@ -14,7 +21,8 @@ namespace TVSystem
         private Dictionary<string, string> hm = new Dictionary<string, string>();
         public TV()
         {
-            using (StreamReader reader = new StreamReader("D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
+            //using (StreamReader reader = new StreamReader("D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
+            using (StreamReader reader = new StreamReader("C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
@@ -60,10 +68,10 @@ namespace TVSystem
         }
         public virtual string GetInfo()
         {
-            return "Price: $" + GetPrice()+ " Type: "+GetTypeTV(); 
+            return "Price: $" + GetPrice() + " Type: " + GetTypeTV();
         }
 
-       internal int GetPrice() 
+        internal int GetPrice() 
         {
             return price;
         }

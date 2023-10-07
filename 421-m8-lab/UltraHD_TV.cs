@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**
+* SWENG 421
+* M8 Lab
+* Yifan Liu, Sunghee Choi
+* 
+* UltraHD_TV 
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +21,5 @@ namespace TVSystem
             SetPrice(400);
             SetType("UltraHD");
         }
-        
     }
 }

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**
+* SWENG 421
+* M8 Lab
+* Yifan Liu, Sunghee Choi
+* 
+* AbsTVBrand 
+* - handles separate hierarchy of TV brands from regular TV class 
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,5 +25,6 @@ namespace TVSystem
         {
             this.brand = brand; 
         }
+
     }
 }
