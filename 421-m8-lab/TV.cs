@@ -25,7 +25,7 @@ namespace TVSystem
             //using (StreamReader reader = new StreamReader("C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
 
             /////// PLEASE ENTER FILE PATH OF pricesheet.txt HERE ///////
-            using (StreamReader reader = new StreamReader("C:\\SWENG-421-LABS\\M8-Lab\\SWENG421_M7_Lab_SungheeChoi_YifanLiu\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
+            using (StreamReader reader = new StreamReader("C:\\SWENG-421-LABS\\M8-Lab\\SWENG421_M8_Lab_SungheeChoi_YifanLiu\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
