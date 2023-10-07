@@ -20,9 +20,6 @@ namespace TVSystem
             this.SetPrice(480);
             this.SetType("UltraHD");
         }
-        public override string GetInfo()
-        {
-            return base.GetInfo() + " Brand: " + GetBrand();
-        }
+
     }
 }

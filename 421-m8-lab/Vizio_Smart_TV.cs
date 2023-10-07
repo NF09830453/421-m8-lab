@@ -18,7 +18,6 @@ namespace TVSystem
         private Smart_TV st = new Smart_TV();
         public Vizio_Smart_TV()
         {
-            SetBrand("Vizio");
             st.SetPrice(350);
             st.SetPowerUsage(6.35);
         }

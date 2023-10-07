@@ -22,7 +22,10 @@ namespace TVSystem
         public TV()
         {
             //using (StreamReader reader = new StreamReader("D:\\SWENG 421Projects\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
-            using (StreamReader reader = new StreamReader("C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
+            //using (StreamReader reader = new StreamReader("C:\\SWENG-421-LABS\\M8-Lab\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
+
+            /////// PLEASE ENTER FILE PATH OF pricesheet.txt HERE ///////
+            using (StreamReader reader = new StreamReader("C:\\SWENG-421-LABS\\M8-Lab\\SWENG421_M7_Lab_SungheeChoi_YifanLiu\\421-m8-lab\\421-m8-lab\\pricesheet.txt"))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
@@ -30,7 +33,7 @@ namespace TVSystem
                     string[] sa = line.Split(',');
 
                     hm[sa[0]] = sa[1]; // sa[0] is the key and sa[1] is the value.
-                    
+
                 }
             }
         }

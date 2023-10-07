@@ -25,6 +25,9 @@ namespace TVSystem
         {
             this.brand = brand; 
         }
-
+        public override string GetInfo()
+        {
+            return base.GetInfo() + " Brand: " + this.GetBrand();
+        }
     }
 }
