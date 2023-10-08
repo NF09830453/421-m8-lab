@@ -43,16 +43,14 @@ namespace Retailer
                 int budget = Convert.ToInt32(userBudget);
 
                 // call TV selection and display details
-                try
+
+                if (retailer.t.ReplenishTV(budget) != null)
                 {
-                    if (retailer.t != null)
-                    {
-                        Console.WriteLine(retailer.t.ReplenishTV(budget).GetInfo());
-                    }
+                    Console.WriteLine(retailer.t.ReplenishTV(budget).GetInfo());
                 }
-                catch (NullReferenceException e)
+                else
                 {
-                    Console.WriteLine("No matching TV");
+                    Console.WriteLine("No matching TV for that budget!");
                 }
                 
 
